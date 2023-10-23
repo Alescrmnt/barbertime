@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background: linear-gradient(900deg,
+            #201b2c,
+            #201b2c,
+            #201b2c,
+            #201b2c,
+            #2b134b);
+}
+
+.material-symbols-outlined {
+    padding: 10px 9px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    background: #2f2841;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+
+input {
+    width: 60%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+/* Estilo para o input de data */
+.date-input {
+    width: 60%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background: white;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: none;
+}
+
+
+.date-label {
+    display: block;
+    /* Mostra a label como um bloco para colocá-la acima do input */
+    margin-bottom: 10px;
+    /* Espaçamento abaixo da label */
+    text-align: left;
+    /* Alinhamento do texto à esquerda */
+    color: #2b134b;
+}
+
+strong{
+    display: block;
+   margin-bottom: -20px ;
+}

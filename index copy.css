@@ -1,0 +1,118 @@
+body{
+    background: #2b134b;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #201b2c;
+    color: #f0ffffde;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-icon {
+    width: 40px;
+    /* Reduzindo o tamanho do ícone */
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    /* Cor de fundo do ícone */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    /* Adicionando uma borda preta fina */
+    box-sizing: border-box;
+    /* Garante que a borda não afete o tamanho total do ícone */
+    margin-right: 10px;
+}
+
+.profile-icon img {
+    width: 80%;
+    /* Ajuste o tamanho da imagem conforme necessário */
+    height: 80%;
+    /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%;
+    /* Mantém o corte circular da imagem */
+    object-fit: cover;
+    /* Garante que a imagem cubra todo o espaço do ícone */
+}
+
+.wallet-info {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 3px;
+    color: #fff;
+}
+
+.saldo {
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+
+.separator {
+    height: 1px;
+    background-color: #514869;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.img-esquerda {
+    display: inline-block;
+    float: left;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.conteudo-direito {
+    display: inline-block;
+    float: right;
+    margin-right: 25%;
+    margin-left: 40%;
+    margin-top: -18%;
+    font-size: 28px;
+}
+
+.agendamento {
+    text-align: center;
+    color: #00ff88;
+    
+}
+
+.conteudo-direito2 {
+    display: inline-block;
+    float: right;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.baixo{
+    margin-top: 50px;
+}
+.btn-login{
+        width: 60%;
+        padding: 16px 0px;
+        margin: 25px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #2b134b;
+        background: #00ff88;
+        cursor: pointer;
+        box-shadow: 0px 10px 40px -12px #00ff8052;
+    }

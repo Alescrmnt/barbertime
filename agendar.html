@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Cortes de Cabelo</title>
+    <link rel="stylesheet" href="agendar.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+    <a class="material-symbols-outlined" href="index.html">arrow_back</a>
+    <div class="container">
+
+    <h1>Agendamento de Corte de Cabelo</h1>
+    <strong>Selecione a Data:</strong>
+    <form id="agendamento-form">
+        <label class="date-label" for="data"></label>
+        <input class="date-input" type="date" id="data" name="data"><br>
+
+        <strong>Escolha o Barbeiro:</strong>
+        <label class="date-label" for="barbeiro"></label>
+        <select class="date-input" id="barbeiro" name="barbeiro">
+            <option value="A">Barbeiro A</option>
+            <option value="B">Barbeiro B</option>
+            <option value="C">Barbeiro C</option>
+        </select><br>
+        <strong>Escolha a Hora: </strong>
+        <label class="date-label" for="horario"></label>
+        <select class="date-input" id="horario" name="horario">
+            <!-- Horários disponíveis serão preenchidos via JavaScript -->
+        </select><br>
+
+        <input type="submit" value="Agendar">
+    </form>
+
+    <script src="agendar.js"></script>
+</body>
+
+</html>

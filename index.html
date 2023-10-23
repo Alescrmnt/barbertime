@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Seu Perfil</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-bootstrap"></i> Barber Time
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Logado como <strong>Teste</strong>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                            <li><a class="dropdown-item" href="#">Perfil</a></li>
+                            <li><a class="dropdown-item" href="#">Alterar Senha</a></li>
+                            <li><a class="dropdown-item" href="#">Sair</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> <!-- Divisão entre o cabeçalho e o conteúdo -->
+    <!-- O conteúdo da sua página continuará aqui -->
+    <div class="baixo">
+    <div class="img-esquerda">
+        <img src="calendari2.svg" class="left-image" alt="Barbearia" width="350px">
+    </div>
+    
+    <div class="conteudo-direito">
+        <div class="agendamento">
+            Agendamento
+        </div>
+        <div class="conteudo-direito2">
+            Nos ajude a organizar nossa rotina, agende um dia e horário com seu barbeiro e acompanhe de casa sua vez na
+            fila.<br>
+            <button class="btn-login" onclick="window.location.href = 'agendar.html'">Clique aqui</button>
+        </div>
+    </div>
+    </div>
+        <div class="img-esquerda">
+            <img src="pagamento.svg" class="left-image" alt="Barbearia" width="280px" >
+        </div>
+        
+        <div class="conteudo-direito">
+            <div class="agendamento">
+                Pagamento
+            </div>
+            <div class="conteudo-direito2">
+                Se preferir, pague antecipadamento. Caso cancele o agendamento, seu dinheiro será estornado.<br>
+                <button class="btn-login" onclick="window.location.href = 'qrcode.html'">Clique aqui</button>
+            </div>
+        </div>
+        </div>
+            <div class="img-esquerda">
+                <img src="celular.svg" class="left-image" alt="Barbearia" width="250px">
+            </div>
+            
+            <div class="conteudo-direito">
+                <div class="agendamento">
+                    Acompanhamento
+                </div>
+                <div class="conteudo-direito2">
+                    Acompanhe em tempo real o andamento da sua fila de atendimento.<br>
+                    <button onclick="window.location.href = 'agendamento.html'" class="btn-login">Clique aqui</button>
+                </div>
+            </div>
+            </div>
+            </div>
+</body>
+
+</html>
